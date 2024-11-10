@@ -1,0 +1,67 @@
+name: berrigo
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  gap: ^3.0.1
+  flutter_svg: ^2.0.10+1
+  flutter_naver_map: ^1.2.3+1
+  cached_network_image: ^3.3.1
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
+  uuid: ^4.4.0
+  intl: ^0.19.0
+  kpostal: ^0.5.1
+  flutter_keyboard_visibility: ^6.0.0
+  file_picker: ^8.0.3
+  dotted_border: ^2.1.0
+  image_picker: ^1.1.2
+  syncfusion_flutter_datagrid: ^25.2.7
+  url_launcher: ^6.3.0
+  kakao_flutter_sdk: ^1.9.2
+  kakao_flutter_sdk_navi: ^1.9.2
+  carousel_slider: ^4.2.1
+  shared_preferences: ^2.2.3
+  bootpay: ^4.9.91
+  logger: ^2.3.0
+  http: ^1.2.1
+  flutter_local_notifications: ^17.2.1+2
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  firebase_messaging: ^14.7.15
+  super_tooltip: ^2.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  freezed: ^2.5.2
+  build_runner: ^2.4.9
+  json_serializable: ^6.8.0
+  very_good_analysis: ^5.1.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/svg/
+    - assets/image/
+
+fonts:
+  - family: NotoSansKR
+    fonts:
+      - asset: assets/font/NotoSansKRVariable.ttf
