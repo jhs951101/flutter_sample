@@ -45,9 +45,6 @@ app.*.map.json
 # FVM Version Cache
 .fvm/
 
-# API Keys
-/lib/config/app_config.dart
-
 # Firebase 구성 파일
 google-services.json
 GoogleService-Info.plist

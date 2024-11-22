@@ -1,7 +1,5 @@
 import 'dart:io';
 
-import 'package:dotted_border/dotted_border.dart';
-import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';
@@ -12,7 +10,7 @@ import '../../../widgets/widgets.dart';
 class SignUpPage extends StatelessWidget {
   SignUpPage({super.key});
 
-  final controller = Get.put(MyController());
+  final controller = Get.put(SignUpController());
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +39,7 @@ class SignUpPage extends StatelessWidget {
   }
 }
 
-class MyController extends GetxController {
+class SignUpController extends GetxController {
   final _fileList = <File>[].obs;
 
   List<File> get fileList => _fileList;

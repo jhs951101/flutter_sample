@@ -29,7 +29,7 @@ class AppRoute {
         ),
         GetPage(
           name: RouteName().signIn,
-          page: () => const SignInPage(),
+          page: () => SignInPage(),
         ),
         GetPage(
           name: RouteName().signUp,
